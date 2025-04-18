@@ -195,6 +195,11 @@ public class pelanggan extends javax.swing.JFrame {
                 bcariActionPerformed(evt);
             }
         });
+        bcari.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                bcariKeyPressed(evt);
+            }
+        });
 
         tblplgn.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -453,6 +458,10 @@ public class pelanggan extends javax.swing.JFrame {
         datatable();
     }
     }//GEN-LAST:event_txtcariKeyPressed
+
+    private void bcariKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_bcariKeyPressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bcariKeyPressed
 
     /**
      * @param args the command line arguments
