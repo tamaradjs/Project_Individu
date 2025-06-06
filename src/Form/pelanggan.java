@@ -224,6 +224,11 @@ public class pelanggan extends javax.swing.JFrame {
                 tblplgnMouseClicked(evt);
             }
         });
+        tblplgn.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                tblplgnKeyPressed(evt);
+            }
+        });
         jScrollPane3.setViewportView(tblplgn);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -482,6 +487,10 @@ public class pelanggan extends javax.swing.JFrame {
     private void txttelpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txttelpActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txttelpActionPerformed
+
+    private void tblplgnKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_tblplgnKeyPressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tblplgnKeyPressed
 
     /**
      * @param args the command line arguments
